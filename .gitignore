@@ -1,0 +1,43 @@
+﻿# Python environments
+.venv/
+.venv-linux/
+venv/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.tmp
+
+# Raw emotion audio dataset folders
+/Angry/
+/Disgusted/
+/Fearful/
+/Happy/
+/Neutral/
+/Sad/
+/Surprised/
+
+# Generated features and processed data
+/features*/
+/processed/
+/data/raw/
+/data/features/
+
+# Experiment outputs and trained model checkpoints
+/outputs*/
+/*.pt
+/*.pth
+
+# Historical backups
+*.bak
+*.before_*
+
+# Local configuration backups
+.gitignore.backup
+
+# Empty placeholder source file
+/src/Codeme.py
+
+# Exclude local setup document
+/SetUPPowerShell.docx
